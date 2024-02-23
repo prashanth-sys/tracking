@@ -1,5 +1,6 @@
 import Header from "../Header";
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const Home = () => (
   <>
@@ -13,21 +14,18 @@ const Home = () => (
           className="home-mobile-img"
         />
         <p className="home-description">
-          Fashion is part of the daily air and it does not quite help that it
-          changes all the time. Clothes have always been a marker of the era and
-          we are in a revolution. Your fashion makes you been seen and heard
-          that way you are. So, celebrate the seasons new and exciting fashion
-          in your own way.
+          A tracking number is a unique identification code assigned to a
+          package or shipment that allows the sender, recipient, and carrier to
+          track its progress through delivery. Tracking numbers can be composed
+          of letters and numbers, and their format varies depending on the
+          delivery service or postal service being used.
         </p>
-        <button type="button" className="shop-now-button">
-          Shop Now
-        </button>
+        <Link to="/parcels">
+          <button type="button" className="shop-now-button">
+            Parcels
+          </button>
+        </Link>
       </div>
-      <img
-        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"
-        alt="dresses to be noticed"
-        className="home-desktop-img"
-      />
     </div>
   </>
 );
