@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  In the assignment created courier tracking system using react and node.js sqlite3 
  used API to login authenticated user and routing and jwt token and query parameters 
  to check the courier parcels and packages etc 
+
+ ### 
+ The result page was about courier tracking of books etc. this is about deployed api from node.js with that API regrading details from books using backwne code use some of online platfrom to deploy the code 
+ some tools used in react.js Route and third-party-packages and react-icons etc. 
